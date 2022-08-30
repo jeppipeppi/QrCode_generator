@@ -15,3 +15,5 @@ path = 'output'
 file_name = 'QrCode'
 
 img.save(path + "/" + file_name + ".png")
+
+print('QrCode got saved in output!')
