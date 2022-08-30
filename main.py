@@ -11,7 +11,7 @@ qr.add_data(data)
 qr.make(fit=True)
 img = qr.make_image(fill_color = 'black', back_color = 'white')
 
-path = 'dist'
+path = 'output'
 file_name = 'QrCode'
 
 img.save(path + "/" + file_name + ".png")
